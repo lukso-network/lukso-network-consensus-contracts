@@ -15,13 +15,13 @@ module.exports = {
       network_id: "*" // Match any network id
     },
     coverage: {
-      host: "localhost",
+      host: "http://35.198.126.103",
       network_id: "*",
       port: 8555,
       gas: 0xfffffffffff,
       gasPrice: 0x01
     },
-    sokol: {
+    l14: {
       host: "localhost",
       port: 8545,
       gas: 6400000,
