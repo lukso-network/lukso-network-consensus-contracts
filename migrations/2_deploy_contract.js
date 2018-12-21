@@ -89,7 +89,7 @@ module.exports = function(deployer, network, accounts) {
       if (demoMode) {
         await ballotsStorage.init([1, 1]);
       } else {
-        await ballotsStorage.init([1, 2]);
+        await ballotsStorage.init([2, 1]);
       }
 
       // Deploy ValidatorMetadata
