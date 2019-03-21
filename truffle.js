@@ -15,14 +15,14 @@ module.exports = {
       network_id: "*" // Match any network id
     },
     coverage: {
-      host: "http://35.198.126.103",
+      host: "localhost",
       network_id: "*",
       port: 8555,
       gas: 0xfffffffffff,
       gasPrice: 0x01
     },
     l14: {
-      host: "localhost",
+      host: "35.204.22.207",
       port: 8545,
       gas: 6400000,
       network_id: "*" // Match any network id

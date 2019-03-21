@@ -20,6 +20,8 @@ const getWeb3Latest = () => {
 }
 
 module.exports = function(deployer, network, accounts) {
+
+  console.log("Network: " + network);
   if (network === 'l14') {
     let masterOfCeremony = process.env.MASTER_OF_CEREMONY;
     let poaNetworkConsensusAddress = process.env.POA_NETWORK_CONSENSUS_ADDRESS;
@@ -89,7 +91,7 @@ module.exports = function(deployer, network, accounts) {
       if (demoMode) {
         await ballotsStorage.init([1, 1]);
       } else {
-        await ballotsStorage.init([2, 1]);
+        await ballotsStorage.init([3, 2]);
       }
 
       // Deploy ValidatorMetadata
