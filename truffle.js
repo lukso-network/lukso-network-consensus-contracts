@@ -21,8 +21,8 @@ module.exports = {
       gas: 0xfffffffffff,
       gasPrice: 0x01
     },
-    sokol: {
-      host: "localhost",
+    l14: {
+      host: "35.204.22.207",
       port: 8545,
       gas: 6400000,
       network_id: "*" // Match any network id
